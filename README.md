@@ -2,7 +2,6 @@
 
 [![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff)](#)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=fff)](#)
-[![Lisence]]
 
 “Flathub Refs Toolkit — generate and download .flatpakref descriptor lists directly from Flathub’s AppStream metadata.”
 
