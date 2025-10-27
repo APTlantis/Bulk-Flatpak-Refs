@@ -2,8 +2,9 @@
 
 [![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff)](#)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=fff)](#)
+[![Lisence]]
 
-Generate Flatpak ref lists from Flathub and download the corresponding .flatpakref descriptor files.
+“Flathub Refs Toolkit — generate and download .flatpakref descriptor lists directly from Flathub’s AppStream metadata.”
 
 This repository contains two small utilities:
 - Query.py — builds .refs files by reading Flathub AppStream, grouped by category.
@@ -64,7 +65,7 @@ python .\Query.py -c Development --arch aarch64 --branch stable --out refs-aarch
 ### 2) Download .flatpakref files (Download.py)
 From a single refs file into flatpakrefs\<subject>\:
 ```powershell
-python .\Download.py --refs-file ref_lists\Compression.refs --out flatpaks\WebBrowser
+python .\Download.py --refs-file ref_lists\Compression.refs --out flatpaks
 ```
 ![download_image.png](images/download_image.png)
 
@@ -76,6 +77,14 @@ python .\Download.py --refs-dir ref_lists --out \refs_downloads
 Combine multiple refs files explicitly:
 ```powershell
 python .\Download.py -f refs\WebBrowser.ref_lists -f refs\Development.refs --out out
+```
+
+### Quick Start
+```
+git clone https://github.com/APTlantis/Bulk-Flatpak-Refs.git
+cd Bulk-Flatpak-Refs
+python Query.py --all --out ref_lists
+python Download.py --refs-dir ref_lists --out flatpaks
 ```
 
 Useful options:
