@@ -1,0 +1,9 @@
+[project]
+name = "flathub-refs-toolkit"
+version = "1.0.0"
+description = "Generate and download Flatpak ref lists from Flathub AppStream."
+authors = [{ name = "Herb" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+scripts = { "flathub-query" = "Query:main", "flathub-download" = "Download:main" }
