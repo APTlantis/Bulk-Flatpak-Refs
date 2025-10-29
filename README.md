@@ -31,7 +31,7 @@ app/org.mozilla.firefox/x86_64/stable
 - No extra packages are required.
 
 ## Usage
-Below examples use Windows PowerShell. Adjust paths as needed.
+The below examples use Windows PowerShell. Adjust paths as needed.
 
 ### 1) Generate .refs files (Query.py)
 Print category counts only:
