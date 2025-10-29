@@ -1,6 +1,6 @@
 [project]
 name = "flathub-refs-toolkit"
-version = "1.0.0"
+version = "1.0.1"
 description = "Generate and download Flatpak ref lists from Flathub AppStream."
 authors = [{ name = "Herb" }]
 license = { text = "MIT" }
