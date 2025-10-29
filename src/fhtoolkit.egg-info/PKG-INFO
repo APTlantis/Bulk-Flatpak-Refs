@@ -1,9 +1,15 @@
-# Flathub Refs Toolkit
+Metadata-Version: 2.4
+Name: fhtoolkit
+Version: 1.0.0
+Summary: Generate and download Flatpak ref lists from Flathub AppStream.
+Author: Herb
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: License
+Dynamic: license-file
 
-[![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff)](#)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=fff)](#)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#)
-[![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=fff)](#)
+# Flathub Refs Toolkit
 
 Generate category-based Flatpak ref lists from Flathub AppStream metadata and download the matching `.flatpakref` descriptors. The toolkit now ships as an installable package that exposes a single `fhtoolkit` command with dedicated `dump` and `download` subcommands.
 

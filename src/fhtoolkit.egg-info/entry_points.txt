@@ -1,0 +1,2 @@
+[console_scripts]
+fhtoolkit = fhtoolkit.cli:main

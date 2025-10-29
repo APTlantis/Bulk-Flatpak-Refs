@@ -1,9 +1,18 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "flathub-refs-toolkit"
-version = "1.0.1"
+name = "fhtoolkit"
+version = "1.0.0"
 description = "Generate and download Flatpak ref lists from Flathub AppStream."
 authors = [{ name = "Herb" }]
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.9"
-scripts = { "flathub-query" = "Query:main", "flathub-download" = "Download:main" }
+
+[project.scripts]
+fhtoolkit = "fhtoolkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

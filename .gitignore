@@ -1,1 +1,10 @@
 /.idea/
+/.codex/
+/dist/
+/build/
+/*.egg-info/
+__pycache__/
+
+/flatpaks/
+plan.md
+
